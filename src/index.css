@@ -1,0 +1,238 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #303841;
+
+
+}
+
+#root{
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+.exercise-card {
+  display: block;
+  text-align: left;
+  background-color: #3a4750;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 0px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.exercise-card-button{
+  background-color: #be3144;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exercise-title{
+  display: inline;
+}
+
+.exercise-title-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exercise-title-button{
+  background-color: #be3144;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exercise-load-div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.exercise-series-div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header{
+  display: inline-block;
+  position: sticky;
+  width: 100%;
+  height: 56px;
+  top:0;
+}
+
+.header-div{
+  border-bottom: 2px solid red;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.header-profile{
+  display: flex;
+}
+
+.dropdown a{
+  display: block;
+  color: blue;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown-toggle{
+  background-color: black;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dropdown-toggle .material-icons.show{
+  color: #be3144;
+}
+
+
+.dropdown .content{
+  display: none;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.dropdown .content.show{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-text{
+  display: block;
+}
+
+.profile-picture{
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.footer-div{
+  background-color: black;
+  border-top: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-div a.active{
+  color: #be3144;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  bottom: 0;
+}
+
+.main-content{
+  flex: 1;
+  padding-bottom: 56px;
+}
+
+.app-body{
+  display: flex;
+  flex-direction: column;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+a:-webkit-any-link:hover {
+    color: #be3144;
+    cursor: pointer;
+}
+
+
+
+.input-carga{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.input-exercise{
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.semanaBox{
+  border: 2px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.diaAtivo{
+  border: 2px solid red;
+}
