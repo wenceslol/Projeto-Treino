@@ -1,4 +1,4 @@
-# 📌 Projetotreino  
+# 📌 Projeto Treino  
 Um aplicativo de gerenciamento de treinos e gastos calóricos, desenvolvido em React Native, Typescript, Node.js e Postgres.  
 
 
@@ -35,10 +35,10 @@ Android Studio(Para emular o ambiente de testes)
 # Passo a Passo
     bash
 ## Clone o repositório
-    git clone https://github.com/wenceslol/projetotreino.git
+    git clone https://github.com/wenceslol/Projeto-Treino.git
 
 ## Acesse a pasta do projeto
-    cd projetotreino
+    cd Projeto-Treino
 
 ## Instale as dependências
     npm install
@@ -54,7 +54,7 @@ Forneça o arquivo "exercicios.json" contendo a base de exercícios.
     npm run android
 
 # 🌐 Como Acessar
-🔗 Necessário hospedagem do backend, vide https://github.com/wenceslol/dbprojetotreino  
+🔗 Necessário hospedagem do backend, vide https://github.com/wenceslol/DbProjeto-Treino  
 Após hospedar seu backend, forneça o endereço da sua aplicação e servidor de imagens via env.ts  
 Crie um arquivo **env.ts** no diretório principal com o seguinte código:  
 
